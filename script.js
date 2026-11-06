@@ -9,7 +9,7 @@ const toast = document.getElementById('toast');
       themeToggle.setAttribute('aria-label', label);
       themeToggle.setAttribute('title', label);
       themeToggle.setAttribute('aria-pressed', String(isLight));
-      document.querySelector('meta[name="theme-color"]').content = isLight ? '#f3f8f7' : '#071d2b';
+      document.querySelector('meta[name="theme-color"]').content = isLight ? '#f0f5f4' : '#060e18';
     });
     let toastTimer;
     function showToast(message) {
